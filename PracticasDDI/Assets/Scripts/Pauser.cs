@@ -9,7 +9,7 @@ public class Pauser : MonoBehaviour
     private bool paused = false;
     public GameObject pausePanel;
     public GameObject audio;
-    public bool mute;
+    
     // Update is called once per frame
 
 
@@ -49,7 +49,6 @@ public class Pauser : MonoBehaviour
     {
 
         Debug.Log("unMusicGame");
-        mute = !mute;
-        audio.SetActive(mute);
+        audio.SetActive(!paused);
     }
 }
