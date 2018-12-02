@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 130065574}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -708,9 +708,10 @@ GameObject:
   - component: {fileID: 630982103}
   - component: {fileID: 630982102}
   - component: {fileID: 630982101}
+  - component: {fileID: 630982106}
   m_Layer: 0
   m_Name: Capsula1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -796,6 +797,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &630982106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630982100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428d89366ee2c1546aaec37462272d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &642712367
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +907,7 @@ GameObject:
   - component: {fileID: 661500938}
   m_Layer: 0
   m_Name: Capsula
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,9 +1006,10 @@ GameObject:
   - component: {fileID: 670734004}
   - component: {fileID: 670734008}
   - component: {fileID: 670734009}
+  - component: {fileID: 670734010}
   m_Layer: 0
   m_Name: Capsula2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1088,7 +1101,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 670734003}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0baad52a35939649ab59bab189ef0ef, type: 3}
   m_Name: 
@@ -1097,6 +1110,18 @@ MonoBehaviour:
   infoPanel: {fileID: 0}
   audio: {fileID: 0}
   rotationSpeed: 3
+--- !u!114 &670734010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670734003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a746a8bf11f044f891048b98e0bd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Capsule2: {fileID: 670734003}
 --- !u!1 &762014874
 GameObject:
   m_ObjectHideFlags: 0
