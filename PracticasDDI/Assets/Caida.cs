@@ -14,9 +14,9 @@ public class Caida : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (transform.position.y < plane.transform.position.y - 10) 
-        {
-            transform.position = spawnpoint.transform.position;
-        }
+        //if (transform.position.y < plane.transform.position.y - 10) 
+        //{
+        //    transform.position = spawnpoint.transform.position;
+        //}
 	}
 }
